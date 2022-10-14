@@ -1,0 +1,18 @@
+{
+  "source": ["tokens/**/*.json"],
+  "platforms": {
+    "ts": {
+      "transformGroup": "js",
+      "files": [
+        {
+          "format": "javascript/module",
+          "destination": "build/colors.js"
+        },
+        {
+          "format": "typescript/module-declarations",
+          "destination": "build/colors.d.ts"
+        }
+      ]
+    }
+  }
+}

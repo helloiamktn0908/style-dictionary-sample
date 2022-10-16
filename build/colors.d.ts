@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 04 Oct 2022 23:17:53 GMT
+ * Generated on Sat, 15 Oct 2022 00:38:07 GMT
  */
 
 export default tokens;
@@ -22,28 +22,56 @@ declare interface DesignToken {
 }
 
 declare const tokens: {
-  "color": {
-    "base": {
-      "gray": {
-        "light": DesignToken,
-        "medium": DesignToken,
-        "dark": DesignToken
-      },
-      "red": DesignToken,
-      "green": DesignToken
-    },
-    "font": {
-      "base": DesignToken,
-      "secondary": DesignToken,
-      "tertiary": DesignToken
-    }
+  "tokenSetOrder": {
+    "0": DesignToken
   },
-  "size": {
-    "font": {
-      "small": DesignToken,
-      "medium": DesignToken,
-      "large": DesignToken,
-      "base": DesignToken
-    }
+  "blue": {
+    "100": DesignToken,
+    "200": DesignToken,
+    "400": DesignToken,
+    "500": DesignToken,
+    "700": DesignToken
+  },
+  "green": {
+    "100": DesignToken,
+    "200": DesignToken,
+    "400": DesignToken,
+    "500": DesignToken,
+    "700": DesignToken
+  },
+  "red": {
+    "100": DesignToken,
+    "200": DesignToken,
+    "400": DesignToken,
+    "500": DesignToken,
+    "700": DesignToken
+  },
+  "yellow": {
+    "100": DesignToken,
+    "200": DesignToken,
+    "400": DesignToken,
+    "500": DesignToken,
+    "700": DesignToken
+  },
+  "brown": {
+    "100": DesignToken,
+    "200": DesignToken,
+    "400": DesignToken,
+    "500": DesignToken,
+    "700": DesignToken
+  },
+  "gray": {
+    "100": DesignToken,
+    "200": DesignToken,
+    "400": DesignToken,
+    "500": DesignToken,
+    "700": DesignToken
+  },
+  "black": {
+    "100": DesignToken,
+    "200": DesignToken,
+    "400": DesignToken,
+    "500": DesignToken,
+    "700": DesignToken
   }
 }

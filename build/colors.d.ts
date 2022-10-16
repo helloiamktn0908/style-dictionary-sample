@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sat, 15 Oct 2022 00:38:07 GMT
+ * Generated on Sun, 16 Oct 2022 01:13:36 GMT
  */
 
 export default tokens;
@@ -25,53 +25,72 @@ declare const tokens: {
   "tokenSetOrder": {
     "0": DesignToken
   },
-  "blue": {
-    "100": DesignToken,
-    "200": DesignToken,
-    "400": DesignToken,
-    "500": DesignToken,
-    "700": DesignToken
+  "primitive": {
+    "blue": {
+      "100": DesignToken,
+      "200": DesignToken,
+      "400": DesignToken,
+      "500": DesignToken,
+      "700": DesignToken
+    },
+    "green": {
+      "100": DesignToken,
+      "200": DesignToken,
+      "400": DesignToken,
+      "500": DesignToken,
+      "700": DesignToken
+    },
+    "red": {
+      "100": DesignToken,
+      "200": DesignToken,
+      "400": DesignToken,
+      "500": DesignToken,
+      "700": DesignToken
+    },
+    "yellow": {
+      "100": DesignToken,
+      "200": DesignToken,
+      "400": DesignToken,
+      "500": DesignToken,
+      "700": DesignToken
+    },
+    "brown": {
+      "100": DesignToken,
+      "200": DesignToken,
+      "400": DesignToken,
+      "500": DesignToken,
+      "700": DesignToken
+    },
+    "gray": {
+      "100": DesignToken,
+      "200": DesignToken,
+      "400": DesignToken,
+      "500": DesignToken,
+      "700": DesignToken
+    },
+    "black": {
+      "100": DesignToken,
+      "200": DesignToken,
+      "400": DesignToken,
+      "500": DesignToken,
+      "700": DesignToken
+    }
   },
-  "green": {
-    "100": DesignToken,
-    "200": DesignToken,
-    "400": DesignToken,
-    "500": DesignToken,
-    "700": DesignToken
-  },
-  "red": {
-    "100": DesignToken,
-    "200": DesignToken,
-    "400": DesignToken,
-    "500": DesignToken,
-    "700": DesignToken
-  },
-  "yellow": {
-    "100": DesignToken,
-    "200": DesignToken,
-    "400": DesignToken,
-    "500": DesignToken,
-    "700": DesignToken
-  },
-  "brown": {
-    "100": DesignToken,
-    "200": DesignToken,
-    "400": DesignToken,
-    "500": DesignToken,
-    "700": DesignToken
-  },
-  "gray": {
-    "100": DesignToken,
-    "200": DesignToken,
-    "400": DesignToken,
-    "500": DesignToken,
-    "700": DesignToken
-  },
-  "black": {
-    "100": DesignToken,
-    "200": DesignToken,
-    "400": DesignToken,
-    "500": DesignToken,
-    "700": DesignToken
+  "semantic": {
+    "primary": {
+      "light": DesignToken,
+      "main": DesignToken,
+      "dark": DesignToken
+    },
+    "secondary": {
+      "light": DesignToken,
+      "main": DesignToken,
+      "dark": DesignToken
+    },
+    "tertiary": {
+      "light": DesignToken,
+      "main": DesignToken,
+      "dark": DesignToken
+    }
   }
 }

@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "style-dictionary build"
+    "tokens": "yarn transform && yarn build",
+    "build": "style-dictionary build --config style-dictionary.config.json",
+    "transform": "token-transformer tokens/figma-tokens.json tokens/style-dictionary-tokens.json"
   },
   "devDependencies": {
     "style-dictionary": "^3.7.1",

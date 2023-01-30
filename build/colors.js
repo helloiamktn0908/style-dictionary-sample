@@ -1,261 +1,110 @@
 /**
  * Do not edit directly
- * Generated on Tue, 04 Oct 2022 23:17:53 GMT
+ * Generated on Mon, 30 Jan 2023 23:34:04 GMT
  */
 
-module.exports = {
-  "color": {
-    "base": {
-      "gray": {
-        "light": {
-          "value": "#cccccc",
-          "filePath": "tokens/color/base.json",
-          "isSource": true,
-          "original": {
-            "value": "#CCCCCC"
-          },
-          "name": "ColorBaseGrayLight",
-          "attributes": {
-            "category": "color",
-            "type": "base",
-            "item": "gray",
-            "subitem": "light"
-          },
-          "path": [
-            "color",
-            "base",
-            "gray",
-            "light"
-          ]
-        },
-        "medium": {
-          "value": "#999999",
-          "filePath": "tokens/color/base.json",
-          "isSource": true,
-          "original": {
-            "value": "#999999"
-          },
-          "name": "ColorBaseGrayMedium",
-          "attributes": {
-            "category": "color",
-            "type": "base",
-            "item": "gray",
-            "subitem": "medium"
-          },
-          "path": [
-            "color",
-            "base",
-            "gray",
-            "medium"
-          ]
-        },
-        "dark": {
-          "value": "#000000",
-          "filePath": "tokens/color/base.json",
-          "isSource": true,
-          "original": {
-            "value": "#000000"
-          },
-          "name": "ColorBaseGrayDark",
-          "attributes": {
-            "category": "color",
-            "type": "base",
-            "item": "gray",
-            "subitem": "dark"
-          },
-          "path": [
-            "color",
-            "base",
-            "gray",
-            "dark"
-          ]
-        }
-      },
-      "red": {
-        "value": "#ff0000",
-        "filePath": "tokens/color/base.json",
-        "isSource": true,
-        "original": {
-          "value": "#FF0000"
-        },
-        "name": "ColorBaseRed",
-        "attributes": {
-          "category": "color",
-          "type": "base",
-          "item": "red"
-        },
-        "path": [
-          "color",
-          "base",
-          "red"
-        ]
-      },
-      "green": {
-        "value": "#00ff00",
-        "filePath": "tokens/color/base.json",
-        "isSource": true,
-        "original": {
-          "value": "#00FF00"
-        },
-        "name": "ColorBaseGreen",
-        "attributes": {
-          "category": "color",
-          "type": "base",
-          "item": "green"
-        },
-        "path": [
-          "color",
-          "base",
-          "green"
-        ]
-      }
-    },
-    "font": {
-      "base": {
-        "value": "#ff0000",
-        "filePath": "tokens/color/font.json",
-        "isSource": true,
-        "original": {
-          "value": "{color.base.red.value}"
-        },
-        "name": "ColorFontBase",
-        "attributes": {
-          "category": "color",
-          "type": "font",
-          "item": "base"
-        },
-        "path": [
-          "color",
-          "font",
-          "base"
-        ]
-      },
-      "secondary": {
-        "value": "#00ff00",
-        "filePath": "tokens/color/font.json",
-        "isSource": true,
-        "original": {
-          "value": "{color.base.green.value}"
-        },
-        "name": "ColorFontSecondary",
-        "attributes": {
-          "category": "color",
-          "type": "font",
-          "item": "secondary"
-        },
-        "path": [
-          "color",
-          "font",
-          "secondary"
-        ]
-      },
-      "tertiary": {
-        "value": "#cccccc",
-        "filePath": "tokens/color/font.json",
-        "isSource": true,
-        "original": {
-          "value": "{color.base.gray.light.value}"
-        },
-        "name": "ColorFontTertiary",
-        "attributes": {
-          "category": "color",
-          "type": "font",
-          "item": "tertiary"
-        },
-        "path": [
-          "color",
-          "font",
-          "tertiary"
-        ]
-      }
-    }
-  },
-  "size": {
-    "font": {
-      "small": {
-        "value": "0.75rem",
-        "comment": "the small size of the font",
-        "filePath": "tokens/size/font.json",
-        "isSource": true,
-        "original": {
-          "value": "0.75",
-          "comment": "the small size of the font"
-        },
-        "name": "SizeFontSmall",
-        "attributes": {
-          "category": "size",
-          "type": "font",
-          "item": "small"
-        },
-        "path": [
-          "size",
-          "font",
-          "small"
-        ]
-      },
-      "medium": {
-        "value": "1rem",
-        "comment": "the medium size of the font",
-        "filePath": "tokens/size/font.json",
-        "isSource": true,
-        "original": {
-          "value": "1",
-          "comment": "the medium size of the font"
-        },
-        "name": "SizeFontMedium",
-        "attributes": {
-          "category": "size",
-          "type": "font",
-          "item": "medium"
-        },
-        "path": [
-          "size",
-          "font",
-          "medium"
-        ]
-      },
-      "large": {
-        "value": "2rem",
-        "comment": "the large size of the font",
-        "filePath": "tokens/size/font.json",
-        "isSource": true,
-        "original": {
-          "value": "2",
-          "comment": "the large size of the font"
-        },
-        "name": "SizeFontLarge",
-        "attributes": {
-          "category": "size",
-          "type": "font",
-          "item": "large"
-        },
-        "path": [
-          "size",
-          "font",
-          "large"
-        ]
-      },
-      "base": {
-        "value": "1rem",
-        "comment": "the base size of the font",
-        "filePath": "tokens/size/font.json",
-        "isSource": true,
-        "original": {
-          "value": "{size.font.medium.value}",
-          "comment": "the base size of the font"
-        },
-        "name": "SizeFontBase",
-        "attributes": {
-          "category": "size",
-          "type": "font",
-          "item": "base"
-        },
-        "path": [
-          "size",
-          "font",
-          "base"
-        ]
-      }
-    }
-  }
-};
+export const TokenSetOrder0 = "light";
+export const TokenSetOrder1 = "dark";
+export const ColorPrimaryLight = "#b799cf";
+export const ColorPrimaryMain = "#aa80cc";
+export const ColorPrimaryDark = "#774b9a";
+export const ColorPrimaryDisabled = "#edd6ff";
+export const ColorSecondaryLight = "#bce3c0";
+export const ColorSecondaryMain = "#92c897";
+export const ColorSecondaryDark = "#599960";
+export const ColorSecondaryDisabled = "#d9ffdd";
+export const ColorErrorLight = "#d8afaf";
+export const ColorErrorMain = "#cd9191";
+export const ColorErrorDark = "#bd6161";
+export const ColorErrorDisabled = "#ffbeb6";
+export const ColorNomalDefault = "#959595";
+export const ColorNomalHover = "#d7d7d7";
+export const ColorTextMain = "#ffffff";
+export const ColorTextDisabled = "#a9a9a9";
+export const ColorTextBlack = "#000000";
+export const ColorTextWhite = "#ffffff";
+export const ColorBackgroundMain = "#505050";
+export const ColorBackgroundWhite = "#ffffff";
+export const ColorBackgroundBlack = "#000000";
+export const ColorBackgroundForm = "#a5a5a5";
+export const ColorBackgroundDialog = "#505050";
+export const ColorBorderMain = "#000000";
+export const ColorGrey100 = "#e9e9e9";
+export const ColorGrey400 = "#bfbfbf";
+export const ColorGrey600 = "#3a3a3a";
+export const ColorLightPrimaryLight = "#edd6ff";
+export const ColorLightPrimaryMain = "#deb5ff";
+export const ColorLightPrimaryDark = "#a56ed1";
+export const ColorLightPrimaryDisabled = "#edd6ff";
+export const ColorLightSecondaryLight = "#d9ffdc";
+export const ColorLightSecondaryMain = "#b7ffbe";
+export const ColorLightSecondaryDark = "#7ce186";
+export const ColorLightSecondaryDisabled = "#d9ffdd";
+export const ColorLightErrorLight = "#ffd0d0";
+export const ColorLightErrorMain = "#ffa4a4";
+export const ColorLightErrorDark = "#e06b6b";
+export const ColorLightErrorDisabled = "#ffbeb6";
+export const ColorLightNomalMain = "#e9e9e9";
+export const ColorLightNomalHover = "#e9e9e9";
+export const ColorLightTextMain = "#000000";
+export const ColorLightTextDisabled = "#a9a9a9";
+export const ColorLightTextWhite = "#fdfdfd";
+export const ColorLightBackgroundMain = "#e8dfd2";
+export const ColorLightBackgroundWhite = "#ffffff";
+export const ColorLightBorderMain = "#000000";
+export const ColorLightGrey100 = "#e9e9e9";
+export const ColorLightGrey400 = "#e9e9e9";
+export const ColorDarkPrimaryLight = "#b799cf";
+export const ColorDarkPrimaryMain = "#aa80cc";
+export const ColorDarkPrimaryDark = "#774b9a";
+export const ColorDarkPrimaryDisabled = "#edd6ff";
+export const ColorDarkSecondaryLight = "#bce3c0";
+export const ColorDarkSecondaryMain = "#92c897";
+export const ColorDarkSecondaryDark = "#599960";
+export const ColorDarkSecondaryDisabled = "#d9ffdd";
+export const ColorDarkErrorLight = "#d8afaf";
+export const ColorDarkErrorMain = "#cd9191";
+export const ColorDarkErrorDark = "#bd6161";
+export const ColorDarkErrorDisabled = "#ffbeb6";
+export const ColorDarkNomalMain = "#959595";
+export const ColorDarkNomalHover = "#d7d7d7";
+export const ColorDarkTextMain = "#ffffff";
+export const ColorDarkTextDisabled = "#a9a9a9";
+export const ColorDarkTextBlack = "#000000";
+export const ColorDarkBackgroundMain = "#505050";
+export const ColorDarkBackgroundWhite = "#ffffff";
+export const ColorDarkBackgroundBlack = "#000000";
+export const ColorDarkBorderMain = "#000000";
+export const ColorDarkGrey100 = "#e9e9e9";
+export const ColorDarkGrey200 = "#bfbfbf";
+export const ColorDarkGrey300 = "#a5a5a5";
+export const ColorDarkGrey500 = "#666666";
+export const SpacingSmall = "8px";
+export const SpacingMedium = "16px";
+export const SpacingLarge = "24px";
+export const SpacingXl = "32px";
+export const SpacingXxl = "40px";
+export const SpacingNone = 0;
+export const ShadowSmall = {"x":3,"y":3,"blur":0,"spread":0,"color":"#000000","type":"dropShadow"};
+export const ShadowMedeium = {"x":4,"y":4,"blur":0,"spread":0,"color":"#000000","type":"dropShadow"};
+export const ShadowNone = {"x":0,"y":0,"blur":0,"spread":0,"color":"#000000","type":"dropShadow"};
+export const FontSizeXxs = "10px";
+export const FontSizeXs = "12px";
+export const FontSizeSmall = "14px";
+export const FontSizeMedium = "16px";
+export const FontWeightMedium = "Medium";
+export const FontWeightSemiBold = "Semi Bold";
+export const FontWeightBold = "Bold";
+export const FontFamilyInter = "Inter";
+export const FontMediumMedium = {"fontFamily":"Inter","fontWeight":"Medium","fontSize":"16px"};
+export const FontMediumSemiBold = {"fontFamily":"Inter","fontWeight":"Semi Bold","fontSize":"16px"};
+export const FontMediumBold = {"fontFamily":"Inter","fontWeight":"Bold","fontSize":"16px"};
+export const FontSmallMedium = {"fontFamily":"Inter","fontWeight":"Medium","fontSize":"14px"};
+export const FontSmallSemiBold = {"fontFamily":"Inter","fontWeight":"Semi Bold","fontSize":"14px"};
+export const FontSmallBold = {"fontFamily":"Inter","fontWeight":"Bold","fontSize":"14px"};
+export const FontXsMedium = {"fontFamily":"Inter","fontSize":"12px","fontWeight":"Medium"};
+export const FontXsSemiBold = {"fontFamily":"Inter","fontWeight":"Semi Bold","fontSize":"12px"};
+export const FontXsBold = {"fontFamily":"Inter","fontWeight":"Bold","fontSize":"12px"};
+export const FontXxsMedium = {"fontFamily":"Inter","fontWeight":"Medium","fontSize":"10px"};
+export const FontXxsSemiBold = {"fontFamily":"Inter","fontWeight":"Semi Bold","fontSize":"10px"};
+export const FontXxsBold = {"fontFamily":"Inter","fontWeight":"Bold","fontSize":"10px"};

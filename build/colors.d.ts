@@ -1,49 +1,110 @@
 /**
  * Do not edit directly
- * Generated on Tue, 04 Oct 2022 23:17:53 GMT
+ * Generated on Mon, 30 Jan 2023 23:34:04 GMT
  */
 
-export default tokens;
-
-declare interface DesignToken {
-  value: any;
-  name?: string;
-  comment?: string;
-  themeable?: boolean;
-  attributes?: {
-    category?: string;
-    type?: string;
-    item?: string;
-    subitem?: string;
-    state?: string;
-    [key: string]: any;
-  };
-  [key: string]: any;
-}
-
-declare const tokens: {
-  "color": {
-    "base": {
-      "gray": {
-        "light": DesignToken,
-        "medium": DesignToken,
-        "dark": DesignToken
-      },
-      "red": DesignToken,
-      "green": DesignToken
-    },
-    "font": {
-      "base": DesignToken,
-      "secondary": DesignToken,
-      "tertiary": DesignToken
-    }
-  },
-  "size": {
-    "font": {
-      "small": DesignToken,
-      "medium": DesignToken,
-      "large": DesignToken,
-      "base": DesignToken
-    }
-  }
-}
+export const TokenSetOrder0 : string;
+export const TokenSetOrder1 : string;
+export const ColorPrimaryLight : string;
+export const ColorPrimaryMain : string;
+export const ColorPrimaryDark : string;
+export const ColorPrimaryDisabled : string;
+export const ColorSecondaryLight : string;
+export const ColorSecondaryMain : string;
+export const ColorSecondaryDark : string;
+export const ColorSecondaryDisabled : string;
+export const ColorErrorLight : string;
+export const ColorErrorMain : string;
+export const ColorErrorDark : string;
+export const ColorErrorDisabled : string;
+export const ColorNomalDefault : string;
+export const ColorNomalHover : string;
+export const ColorTextMain : string;
+export const ColorTextDisabled : string;
+export const ColorTextBlack : string;
+export const ColorTextWhite : string;
+export const ColorBackgroundMain : string;
+export const ColorBackgroundWhite : string;
+export const ColorBackgroundBlack : string;
+export const ColorBackgroundForm : string;
+export const ColorBackgroundDialog : string;
+export const ColorBorderMain : string;
+export const ColorGrey100 : string;
+export const ColorGrey400 : string;
+export const ColorGrey600 : string;
+export const ColorLightPrimaryLight : string;
+export const ColorLightPrimaryMain : string;
+export const ColorLightPrimaryDark : string;
+export const ColorLightPrimaryDisabled : string;
+export const ColorLightSecondaryLight : string;
+export const ColorLightSecondaryMain : string;
+export const ColorLightSecondaryDark : string;
+export const ColorLightSecondaryDisabled : string;
+export const ColorLightErrorLight : string;
+export const ColorLightErrorMain : string;
+export const ColorLightErrorDark : string;
+export const ColorLightErrorDisabled : string;
+export const ColorLightNomalMain : string;
+export const ColorLightNomalHover : string;
+export const ColorLightTextMain : string;
+export const ColorLightTextDisabled : string;
+export const ColorLightTextWhite : string;
+export const ColorLightBackgroundMain : string;
+export const ColorLightBackgroundWhite : string;
+export const ColorLightBorderMain : string;
+export const ColorLightGrey100 : string;
+export const ColorLightGrey400 : string;
+export const ColorDarkPrimaryLight : string;
+export const ColorDarkPrimaryMain : string;
+export const ColorDarkPrimaryDark : string;
+export const ColorDarkPrimaryDisabled : string;
+export const ColorDarkSecondaryLight : string;
+export const ColorDarkSecondaryMain : string;
+export const ColorDarkSecondaryDark : string;
+export const ColorDarkSecondaryDisabled : string;
+export const ColorDarkErrorLight : string;
+export const ColorDarkErrorMain : string;
+export const ColorDarkErrorDark : string;
+export const ColorDarkErrorDisabled : string;
+export const ColorDarkNomalMain : string;
+export const ColorDarkNomalHover : string;
+export const ColorDarkTextMain : string;
+export const ColorDarkTextDisabled : string;
+export const ColorDarkTextBlack : string;
+export const ColorDarkBackgroundMain : string;
+export const ColorDarkBackgroundWhite : string;
+export const ColorDarkBackgroundBlack : string;
+export const ColorDarkBorderMain : string;
+export const ColorDarkGrey100 : string;
+export const ColorDarkGrey200 : string;
+export const ColorDarkGrey300 : string;
+export const ColorDarkGrey500 : string;
+export const SpacingSmall : string;
+export const SpacingMedium : string;
+export const SpacingLarge : string;
+export const SpacingXl : string;
+export const SpacingXxl : string;
+export const SpacingNone : number;
+export const ShadowSmall : { x: number, y: number, blur: number, spread: number, color: string, type: string };
+export const ShadowMedeium : { x: number, y: number, blur: number, spread: number, color: string, type: string };
+export const ShadowNone : { x: number, y: number, blur: number, spread: number, color: string, type: string };
+export const FontSizeXxs : string;
+export const FontSizeXs : string;
+export const FontSizeSmall : string;
+export const FontSizeMedium : string;
+export const FontWeightMedium : string;
+export const FontWeightSemiBold : string;
+export const FontWeightBold : string;
+export const FontFamilyInter : string;
+export const FontMediumMedium : { fontFamily: string, fontWeight: string, fontSize: string };
+export const FontMediumSemiBold : { fontFamily: string, fontWeight: string, fontSize: string };
+export const FontMediumBold : { fontFamily: string, fontWeight: string, fontSize: string };
+export const FontSmallMedium : { fontFamily: string, fontWeight: string, fontSize: string };
+export const FontSmallSemiBold : { fontFamily: string, fontWeight: string, fontSize: string };
+export const FontSmallBold : { fontFamily: string, fontWeight: string, fontSize: string };
+export const FontXsMedium : { fontFamily: string, fontSize: string, fontWeight: string };
+export const FontXsSemiBold : { fontFamily: string, fontWeight: string, fontSize: string };
+export const FontXsBold : { fontFamily: string, fontWeight: string, fontSize: string };
+export const FontXxsMedium : { fontFamily: string, fontWeight: string, fontSize: string };
+export const FontXxsSemiBold : { fontFamily: string, fontWeight: string, fontSize: string };
+export const FontXxsBold : { fontFamily: string, fontWeight: string, fontSize: string };

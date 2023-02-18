@@ -1,37 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Mon, 30 Jan 2023 23:34:04 GMT
+ * Generated on Sat, 18 Feb 2023 05:07:45 GMT
  */
 
 export const TokenSetOrder0 : string;
-export const TokenSetOrder1 : string;
-export const ColorPrimaryLight : string;
-export const ColorPrimaryMain : string;
-export const ColorPrimaryDark : string;
-export const ColorPrimaryDisabled : string;
-export const ColorSecondaryLight : string;
-export const ColorSecondaryMain : string;
-export const ColorSecondaryDark : string;
-export const ColorSecondaryDisabled : string;
-export const ColorErrorLight : string;
-export const ColorErrorMain : string;
-export const ColorErrorDark : string;
-export const ColorErrorDisabled : string;
-export const ColorNomalDefault : string;
-export const ColorNomalHover : string;
-export const ColorTextMain : string;
-export const ColorTextDisabled : string;
-export const ColorTextBlack : string;
-export const ColorTextWhite : string;
-export const ColorBackgroundMain : string;
-export const ColorBackgroundWhite : string;
-export const ColorBackgroundBlack : string;
-export const ColorBackgroundForm : string;
-export const ColorBackgroundDialog : string;
-export const ColorBorderMain : string;
-export const ColorGrey100 : string;
-export const ColorGrey400 : string;
-export const ColorGrey600 : string;
 export const ColorLightPrimaryLight : string;
 export const ColorLightPrimaryMain : string;
 export const ColorLightPrimaryDark : string;

@@ -1,37 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Mon, 30 Jan 2023 23:34:04 GMT
+ * Generated on Sat, 18 Feb 2023 05:07:45 GMT
  */
 
-export const TokenSetOrder0 = "light";
-export const TokenSetOrder1 = "dark";
-export const ColorPrimaryLight = "#b799cf";
-export const ColorPrimaryMain = "#aa80cc";
-export const ColorPrimaryDark = "#774b9a";
-export const ColorPrimaryDisabled = "#edd6ff";
-export const ColorSecondaryLight = "#bce3c0";
-export const ColorSecondaryMain = "#92c897";
-export const ColorSecondaryDark = "#599960";
-export const ColorSecondaryDisabled = "#d9ffdd";
-export const ColorErrorLight = "#d8afaf";
-export const ColorErrorMain = "#cd9191";
-export const ColorErrorDark = "#bd6161";
-export const ColorErrorDisabled = "#ffbeb6";
-export const ColorNomalDefault = "#959595";
-export const ColorNomalHover = "#d7d7d7";
-export const ColorTextMain = "#ffffff";
-export const ColorTextDisabled = "#a9a9a9";
-export const ColorTextBlack = "#000000";
-export const ColorTextWhite = "#ffffff";
-export const ColorBackgroundMain = "#505050";
-export const ColorBackgroundWhite = "#ffffff";
-export const ColorBackgroundBlack = "#000000";
-export const ColorBackgroundForm = "#a5a5a5";
-export const ColorBackgroundDialog = "#505050";
-export const ColorBorderMain = "#000000";
-export const ColorGrey100 = "#e9e9e9";
-export const ColorGrey400 = "#bfbfbf";
-export const ColorGrey600 = "#3a3a3a";
+export const TokenSetOrder0 = "theme";
 export const ColorLightPrimaryLight = "#edd6ff";
 export const ColorLightPrimaryMain = "#deb5ff";
 export const ColorLightPrimaryDark = "#a56ed1";
@@ -86,7 +58,7 @@ export const SpacingXl = "32px";
 export const SpacingXxl = "40px";
 export const SpacingNone = 0;
 export const ShadowSmall = {"x":3,"y":3,"blur":0,"spread":0,"color":"#000000","type":"dropShadow"};
-export const ShadowMedeium = {"x":4,"y":4,"blur":0,"spread":0,"color":"#000000","type":"dropShadow"};
+export const ShadowMedeium = {"x":5,"y":5,"blur":0,"spread":0,"color":"#000000","type":"dropShadow"};
 export const ShadowNone = {"x":0,"y":0,"blur":0,"spread":0,"color":"#000000","type":"dropShadow"};
 export const FontSizeXxs = "10px";
 export const FontSizeXs = "12px";

@@ -3,14 +3,15 @@
   "platforms": {
     "ts": {
       "transformGroup": "js",
+      "buildPath": "build/",
       "files": [
         {
           "format": "javascript/es6",
-          "destination": "build/colors.js"
+          "destination": "design-tokens.ts"
         },
         {
           "format": "typescript/es6-declarations",
-          "destination": "build/colors.d.ts"
+          "destination": "design-tokens.d.ts"
         }
       ]
     }

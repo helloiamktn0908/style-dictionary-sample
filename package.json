@@ -6,10 +6,14 @@
   "scripts": {
     "tokens": "yarn transform && yarn build",
     "build": "style-dictionary build --config style-dictionary.config.json",
-    "transform": "token-transformer tokens/figma-tokens.json tokens/style-dictionary-tokens.json"
+    "transform": "token-transformer tokens/figma-tokens.json tokens/style-dictionary-tokens.json",
+    "copy": "ts-node ./copy --project azalea"
   },
   "devDependencies": {
+    "@types/yargs": "^17.0.22",
+    "fs-extra": "^11.1.0",
     "style-dictionary": "^3.7.1",
-    "token-transformer": "^0.0.27"
+    "token-transformer": "^0.0.27",
+    "ts-node": "^10.9.1"
   }
 }

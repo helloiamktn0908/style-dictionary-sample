@@ -17,7 +17,7 @@
             "type": "color"
           },
           "disabled": {
-            "value": "rgba(237,214,255,0.5)",
+            "value": "#edd6ff80",
             "type": "color"
           }
         },
@@ -35,7 +35,7 @@
             "type": "color"
           },
           "disabled": {
-            "value": "rgba(217,255,221,0.5)",
+            "value": "#d9ffdd80",
             "type": "color"
           }
         },
@@ -53,7 +53,7 @@
             "type": "color"
           },
           "disabled": {
-            "value": "rgba(255,190,182,0.5)",
+            "value": "#ffb2b680",
             "type": "color"
           }
         },
@@ -63,7 +63,7 @@
             "type": "color"
           },
           "hover": {
-            "value": "rgba(233,233,233,0.5)",
+            "value": "#e9e9e980",
             "type": "color"
           }
         },
@@ -106,7 +106,7 @@
             "description": "タグの背景色"
           },
           "400": {
-            "value": "rgba(233,233,233,0.5)",
+            "value": "#e9e9e980",
             "type": "color",
             "description": "ボタンをhoverした時のボタン背景色"
           }
@@ -128,7 +128,7 @@
             "type": "color"
           },
           "disabled": {
-            "value": "rgba(237,214,255,0.5)",
+            "value": "#edd6ff80",
             "type": "color"
           }
         },
@@ -146,7 +146,7 @@
             "type": "color"
           },
           "disabled": {
-            "value": "rgba(217,255,221,0.5)",
+            "value": "#d9ffdd80",
             "type": "color"
           }
         },
@@ -164,7 +164,7 @@
             "type": "color"
           },
           "disabled": {
-            "value": "rgba(255,190,182,0.5)",
+            "value": "#ffb2b680",
             "type": "color"
           }
         },

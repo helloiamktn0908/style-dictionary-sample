@@ -1,23 +1,23 @@
 /**
  * Do not edit directly
- * Generated on Sat, 18 Feb 2023 05:07:45 GMT
+ * Generated on Sat, 18 Feb 2023 06:10:01 GMT
  */
 
 export const TokenSetOrder0 = "theme";
 export const ColorLightPrimaryLight = "#edd6ff";
 export const ColorLightPrimaryMain = "#deb5ff";
 export const ColorLightPrimaryDark = "#a56ed1";
-export const ColorLightPrimaryDisabled = "#edd6ff";
+export const ColorLightPrimaryDisabled = "#f3e2ff";
 export const ColorLightSecondaryLight = "#d9ffdc";
 export const ColorLightSecondaryMain = "#b7ffbe";
 export const ColorLightSecondaryDark = "#7ce186";
-export const ColorLightSecondaryDisabled = "#d9ffdd";
+export const ColorLightSecondaryDisabled = "#e2fde5";
 export const ColorLightErrorLight = "#ffd0d0";
 export const ColorLightErrorMain = "#ffa4a4";
 export const ColorLightErrorDark = "#e06b6b";
-export const ColorLightErrorDisabled = "#ffbeb6";
+export const ColorLightErrorDisabled = "#fddddf";
 export const ColorLightNomalMain = "#e9e9e9";
-export const ColorLightNomalHover = "#e9e9e9";
+export const ColorLightNomalHover = "#bbbbbb";
 export const ColorLightTextMain = "#000000";
 export const ColorLightTextDisabled = "#a9a9a9";
 export const ColorLightTextWhite = "#fdfdfd";
@@ -29,15 +29,15 @@ export const ColorLightGrey400 = "#e9e9e9";
 export const ColorDarkPrimaryLight = "#b799cf";
 export const ColorDarkPrimaryMain = "#aa80cc";
 export const ColorDarkPrimaryDark = "#774b9a";
-export const ColorDarkPrimaryDisabled = "#edd6ff";
+export const ColorDarkPrimaryDisabled = "#f3e2ff";
 export const ColorDarkSecondaryLight = "#bce3c0";
 export const ColorDarkSecondaryMain = "#92c897";
 export const ColorDarkSecondaryDark = "#599960";
-export const ColorDarkSecondaryDisabled = "#d9ffdd";
+export const ColorDarkSecondaryDisabled = "#e2fde5";
 export const ColorDarkErrorLight = "#d8afaf";
 export const ColorDarkErrorMain = "#cd9191";
 export const ColorDarkErrorDark = "#bd6161";
-export const ColorDarkErrorDisabled = "#ffbeb6";
+export const ColorDarkErrorDisabled = "#fddddf";
 export const ColorDarkNomalMain = "#959595";
 export const ColorDarkNomalHover = "#d7d7d7";
 export const ColorDarkTextMain = "#ffffff";

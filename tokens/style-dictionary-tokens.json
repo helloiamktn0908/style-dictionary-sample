@@ -1,144 +1,11 @@
 {
   "tokenSetOrder": {
     "0": {
-      "value": "light",
-      "type": "other"
-    },
-    "1": {
-      "value": "dark",
+      "value": "theme",
       "type": "other"
     }
   },
   "color": {
-    "primary": {
-      "light": {
-        "value": "#b799cf",
-        "type": "color"
-      },
-      "main": {
-        "value": "#aa80cc",
-        "type": "color",
-        "description": "プライマリーカラー（プロダクトの印象を司る箇所に使う）"
-      },
-      "dark": {
-        "value": "#774b9a",
-        "type": "color"
-      },
-      "disabled": {
-        "value": "#edd6ff80",
-        "type": "color"
-      }
-    },
-    "secondary": {
-      "light": {
-        "value": "#bce3c0",
-        "type": "color"
-      },
-      "main": {
-        "value": "#92c897",
-        "type": "color"
-      },
-      "dark": {
-        "value": "#599960",
-        "type": "color"
-      },
-      "disabled": {
-        "value": "#d9ffdd80",
-        "type": "color"
-      }
-    },
-    "error": {
-      "light": {
-        "value": "#d8afaf",
-        "type": "color"
-      },
-      "main": {
-        "value": "#cd9191",
-        "type": "color"
-      },
-      "dark": {
-        "value": "#bd6161",
-        "type": "color"
-      },
-      "disabled": {
-        "value": "#ffbeb680",
-        "type": "color"
-      }
-    },
-    "nomal": {
-      "default": {
-        "value": "#959595",
-        "type": "color"
-      },
-      "hover": {
-        "value": "#d7d7d7",
-        "type": "color"
-      }
-    },
-    "text": {
-      "main": {
-        "value": "#fff",
-        "type": "color"
-      },
-      "disabled": {
-        "value": "#a9a9a9",
-        "type": "color",
-        "description": "placeholderに使う"
-      },
-      "black": {
-        "value": "#000",
-        "type": "color"
-      },
-      "white": {
-        "value": "#fff",
-        "type": "color"
-      }
-    },
-    "background": {
-      "main": {
-        "value": "#505050",
-        "type": "color",
-        "description": "アプリ全体の背景色"
-      },
-      "white": {
-        "value": "#fff",
-        "type": "color"
-      },
-      "black": {
-        "value": "#000000",
-        "type": "color"
-      },
-      "form": {
-        "value": "#a5a5a5",
-        "type": "color"
-      },
-      "dialog": {
-        "value": "#505050",
-        "type": "color"
-      }
-    },
-    "border": {
-      "main": {
-        "value": "#000",
-        "type": "color"
-      }
-    },
-    "grey": {
-      "100": {
-        "value": "#E9E9E9",
-        "type": "color",
-        "description": "タグの背景色"
-      },
-      "400": {
-        "value": "#bfbfbf",
-        "type": "color",
-        "description": "ボタンをhoverした時のボタン背景色"
-      },
-      "600": {
-        "value": "#3a3a3a",
-        "type": "color"
-      }
-    },
     "light": {
       "primary": {
         "light": {
@@ -416,8 +283,8 @@
     },
     "medeium": {
       "value": {
-        "x": 4,
-        "y": 4,
+        "x": 5,
+        "y": 5,
         "blur": 0,
         "spread": 0,
         "color": "#000000",

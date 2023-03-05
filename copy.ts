@@ -3,7 +3,11 @@ import fs from "fs";
 import yargs from "yargs";
 const { hideBin } = require("yargs/helpers");
 
-const argv = yargs(hideBin(process.argv)).argv;
+type Arguments = {
+  project: "azalea";
+};
+
+const argv = yargs(hideBin(process.argv)).argv as unknown as Arguments;
 
 const moveFrontend = () => {
   try {

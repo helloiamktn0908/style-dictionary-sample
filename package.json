@@ -10,6 +10,7 @@
     "copy": "ts-node ./copy --project azalea"
   },
   "devDependencies": {
+    "@types/node": "^18.14.6",
     "@types/yargs": "^17.0.22",
     "fs-extra": "^11.1.0",
     "style-dictionary": "^3.7.1",

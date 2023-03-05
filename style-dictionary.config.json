@@ -1,7 +1,7 @@
 {
   "source": ["tokens/style-dictionary-tokens.json"],
   "platforms": {
-    "ts": {
+    "js": {
       "transformGroup": "js",
       "buildPath": "build/",
       "files": [

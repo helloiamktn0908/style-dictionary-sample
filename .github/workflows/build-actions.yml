@@ -1,22 +1,21 @@
-# name: build-actions
-# run-name: ${{ github.actor }} is learning GitHub Actions
-# on: [workflow_dispatch, push]
-# jobs:
-#   Build:
-#     name: Style Dictionary Build
-#     runs-on: ubuntu-latest
-#     steps:
-#       - name: Checkout
-#         uses: actions/checkout@v3
+name: build-actions
+run-name: ${{ github.actor }} is learning GitHub Actions
+on: [workflow_dispatch, push]
+jobs:
+  Build:
+    name: Style Dictionary Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
 
-#       - name: Prepare Node Env
-#         uses: actions/setup-node@v3
-#         with:
-#           node-version: "16"
+      - name: Prepare Node Env
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16"
 
-#       - name: Node Version
-#         run: node -v
-
+      - name: Node Version
+        run: node -v
 #       - name: Install Dependencies
 #         run: yarn
 
